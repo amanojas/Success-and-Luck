@@ -1,4 +1,4 @@
-# Success-and-Luck (Average Luck Scores)
+# Success and Luck (Average Luck Scores)
 
 Kindly run this app using R studio with shiny package.
 
