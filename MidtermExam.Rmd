@@ -1,0 +1,78 @@
+
+---
+title: "Brooklyn College"
+author: "Department of Business Management"
+date: "Midterm Exam (Fall 2019)"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## BUSN 3400 Introduction to Economic and Business Statistics
+
+Please read the questions carefully before you answer the questions. The answers should be written clearly. You are not allowed to use a pencil to write your answers. You can use a calculator when required. **Mobile phones are not allowed.** \
+
+
+
+**Question 1 (Descriptive Statistics)**
+
+COMPUTE ALL DESCRIPTIVE STATISTICS – mean, median, mode, quartiles, range, interquartile range, variance, standard deviation, coefficient of variation. (Hint : Do not forget that it is **a SAMPLE** while you calculate variance and standard deviation)
+
+Average wait in minutes for a train; n=15
+
+45, 4, 5, 5, 6, 12, 17, 10, 10, 11, 8, 15, 16, 9, 0 \
+
+**Question 2 (Probability)**
+
+```{r echo = FALSE, message = FALSE, results='asis'}
+library(devtools)
+a = source_url("https://raw.githubusercontent.com/amanojas/Success-and-Luck/master/Table1.R")
+a$value
+```
+
+
+Calculate the following using the **Table 1**. (Drawing a table for joint probabilties will help)
+
+1. P (male) =
+2. P (female and smoker) =
+3. P (female or smoker) =
+4. P (male | smoker) =
+5. P (smoker | male) =
+6. Is there a relationship between gender and smoking?\
+
+**Question 3 (Binomial Distribution)**
+
+a) A company owns 400 laptops. Each laptop has an 8% probability of notworking.You randomly select 20 laptops for your salespeople.
+1. What is the likelihood that 5 will be broken?
+2. What is the likelihood that they will all work?
+3. What is the likelihood that they will all be broken?\
+
+b) A study indicates that 4% of American teenagers have tattoos. You randomly sample 30 teenagers. What is the likelihood that exactly 3 will have a tattoo?
+
+**Question 4 (Estimation and Inference)**
+
+a) The average grade point average (GPA) of undergraduate students in New York is normally distributed with a population mean of 2.5 and a population standard deviation of 0.5.
+
+1. What is the percentage of students with GPA between 1.3 and 1.8?
+
+2. If a **sample** of 25 students is taken, what is the probability that the sample mean GPA will be between 2.50 and 2.75?\
+
+b) A confidence interval was used to estimate the proportion of new Dell laptop computers that are defective. A random sample of 121 laptops produced the following 95% confidence interval as to the proportion of defectives: 2% ± 0.5% 
+
+1. Is the following statement correct? "We are 95% sure that the true
+proportion of new Dell laptops that are defective is 2%." Give an explanation. **(You will get zero points if you do not explain the reasoning behind your answer)**\
+
+
+**Question 5 (Hypothesis Testing, Z-test)**
+
+a) Suppose a researcher wishes to test Ho: $\mu \le$ 100 milligrams versus H1: $\mu$ > 100 milligrams.She concludes that the population mean is less than 100 milligrams when it is actually 104 milligrams. Is she correct? If not, what "type" of error has she made?
+
+b) The Duracell Battery Company claims that its new Bunnywabbit batteries have a life, on the average, of 1,000 hours. Suppose, you take a sample of 100 batteries and test them. You find:\
+$\overline{X}$ = 985 hours
+s = 30 hours
+
+State your null and alternative hypotheses clearly. Construct a 95% CIE and decide whether the company’s claim should be rejected or not. 
+
+
