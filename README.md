@@ -1,6 +1,5 @@
 # Success and Luck (Average Luck Scores)
 
-Kindly run this app using R studio with shiny package.
 
 This basic app assumes a uniform distribution for both the luck factor and skill factor of individuals.
 The app gives the results for pre determined number of participants.
